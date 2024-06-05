@@ -1,0 +1,54 @@
+$graphik: "Graphik", sans-serif;
+$roboto-condensed: "Roboto-condensed", sans-serif;
+$roboto: "Roboto", sans-serif;
+$intertight: "InterTight", sans-serif;
+
+:root {
+  // Brand colors
+  --color-primary: #1a4b8a;
+  --color-secondary: #b3d184;
+  --color-accent: #8dc63f;
+  --color-background: #f0f3ff;
+
+  // Neutral colors
+  --color-neutral-black: #111;
+  --color-neutral-grey-dark: rgba(17, 17, 17, 0.64);
+  --color-neutral-grey-light: rgba(17, 17, 17, 0.07);
+  --color-neutral-grey-extraLight: rgba(17, 17, 17, 0.03);
+  --color-neutral-white: #fff;
+
+  // Fixed colors
+  --color-fill-rating: #f9c039;
+  --color-fill-locationpin: #dd1515;
+
+  // var padding
+  --padding-4: 4px;
+  --padding-8: 8px;
+  --padding-12: 12px;
+  --padding-16: 16px;
+  --padding-20: 20px;
+  --padding-24: 24px;
+  --padding-32: 32px;
+  --padding-36: 36px;
+  --padding-40: 40px;
+  --padding-48: 48px;
+  --padding-56: 56px;
+  --padding-60: 60px;
+  --padding-80: 80px;
+
+  // var radius
+  --border-4: 4px;
+  --border-8: 8px;
+  // var radius end
+
+  // var spacing
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-24: 24px;
+  --spacing-28: 28px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  // var spacing end
+}

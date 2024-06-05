@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hero</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="marketingPage">
+    <section class="hero4">
+      <div class="hero-img">
+        <div class="google-reviews-box">
+          <p>234 Reviews</p>
+          <div class="devider"></div>
+          <img src="img/google-logo.png" alt="Google logo" />
+        </div>
+
+        <img src="img/hero-img.webp" alt="hero img" />
+        <div class="hero-badges">
+          <div class="badge">
+            <img src="img/badge-locally.svg" alt="badge-img" />
+          </div>
+          <div class="badge">
+            <img src="img/badge-awarded.svg" alt="badge-img" />
+          </div>
+          <div class="badge">
+            <img src="img/badge-satisfaction.svg" alt="badge-img" />
+          </div>
+          <div class="badge">
+            <img src="img/badge-premium.svg" alt="badge-img" />
+          </div>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="hero-content">
+          <div class="hero-title">
+            <h1 class="h1">We'll Treat Your Yard & Lawn Like It's Our Own</h1>
+            <h2 class="h2">Prairieville & Baton Rouge, LA</h2>
+            <p class="sub-text">And all if the surrounding areas. Serving our local neighborhoods with pride!</p>
+          </div>
+          <div class="instant-quote">
+            <div class="hero-form-holder">
+              <h5 class="form-title" id="form1"><span>GET A FREE</span> INSTANT QUOTE!</h5>
+              <form class="hero-form">
+                <input type="hidden" name="hash" value="83429a5f-7631-4ba6-be8d-227147c6b8e1" />
+                <input type="hidden" name="service" value="lawn-mowing" />
+                <div class="hero-form-content hero-form-1">
+                  <div class="hero-form-top">
+                    <h5>
+                      <div class="question-number">1</div>
+                      What type of lawn service are you interested in?
+                    </h5>
+                    <p class="error-msg">You must select at least one option below.</p>
+                  </div>
+
+                  <div class="options-holder">
+                    <div class="option-block">
+                      <label class="custom-checkbox">
+                        <input name="checkbox-input" type="checkbox" />
+                        <div class="checkbox-box"></div>
+                        <span class="input-text-span text-small">Lawn mowing</span>
+                        <span class="checkbox-border"></span>
+                      </label>
+                    </div>
+                    <div class="option-block">
+                      <label class="custom-checkbox">
+                        <input name="checkbox-input" type="checkbox" />
+                        <div class="checkbox-box"></div>
+                        <span class="input-text-span text-small">General Lawn Care</span>
+                        <span class="checkbox-border"></span>
+                      </label>
+                    </div>
+                    <div class="option-block">
+                      <label class="custom-checkbox">
+                        <input name="checkbox-input" type="checkbox" />
+                        <div class="checkbox-box"></div>
+                        <span class="input-text-span text-small">Lawn Rejuvenation</span>
+                        <span class="checkbox-border"></span>
+                      </label>
+                    </div>
+                    <div class="option-block">
+                      <label class="custom-checkbox">
+                        <input name="checkbox-input" type="checkbox" />
+                        <div class="checkbox-box"></div>
+                        <span class="input-text-span text-small">Other</span>
+                        <span class="checkbox-border"></span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="bottom-boxes">
+                    <a class="primary-button submit-choice-1 nextHeroForm" href="">GET A QUOTE</a>
+                    <div class="small-text-box">
+                      <div>
+                        <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5.07904 8.94848L1.52576 5.3952L0 6.92096L5.07904 12L15.5533 1.52576L14.0275 0L5.07904 8.94848Z" fill="currentColor"></path>
+                        </svg>
+                        <p class="text-small">20% Discount Special</p>
+                      </div>
+                      <div>
+                        <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5.07904 8.94848L1.52576 5.3952L0 6.92096L5.07904 12L15.5533 1.52576L14.0275 0L5.07904 8.94848Z" fill="currentColor"></path>
+                        </svg>
+                        <p class="text-small">Best Price Guarantee</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="hero-form-content hero-form-2" style="display: none">
+                  <div class="hero-form-top">
+                    <h5>
+                      <div class="question-number">2</div>
+                      How large is your lawn area?
+                    </h5>
+                    <p class="error-msg">You must select an option below</p>
+                  </div>
+                  <div class="options-holder">
+                    <div class="option-block">
+                      <label class="custom-radio">
+                        <input name="radio-input" type="radio" />
+                        <div class="radio-box"></div>
+                        <span class="input-text-span text-small">Small (less than 1,000 sq ft)</span>
+                        <span class="radio-border"></span>
+                      </label>
+                    </div>
+                    <div class="option-block">
+                      <label class="custom-radio">
+                        <input name="radio-input" type="radio" />
+                        <div class="radio-box"></div>
+                        <span class="input-text-span text-small">Small (1,000 - 5,000 sq ft)</span>
+                        <span class="radio-border"></span>
+                      </label>
+                    </div>
+                    <div class="option-block">
+                      <label class="custom-radio">
+                        <input name="radio-input" type="radio" />
+                        <div class="radio-box"></div>
+                        <span class="input-text-span text-small">Large (more than 5,000 sq ft)</span>
+                        <span class="radio-border"></span>
+                      </label>
+                    </div>
+                    <div class="option-block">
+                      <label class="custom-radio">
+                        <input name="radio-input" type="radio" />
+                        <div class="radio-box"></div>
+                        <span class="input-text-span text-small">I’m not sure</span>
+                        <span class="radio-border"></span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="bottom-boxes">
+                    <a class="primary-button nextHeroForm" href="#">NEXT</a>
+                    <div class="form-progress-bar">
+                      <div class="progress-step progress-step--completed">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+                          <path d="M13.3333 4.33337L5.99996 11.6667L2.66663 8.33337" stroke="#262641" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </div>
+                      <div class="bullet-line"></div>
+                      <div class="progress-step progress-step--next">
+                        <p>2</p>
+                      </div>
+                      <div class="bullet-line"></div>
+                      <div class="progress-step">
+                        <p>3</p>
+                      </div>
+                    </div>
+                    <div class="small-text-box">
+                      <div>
+                        <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5.07904 8.94848L1.52576 5.3952L0 6.92096L5.07904 12L15.5533 1.52576L14.0275 0L5.07904 8.94848Z" fill="currentColor"></path>
+                        </svg>
+                        <p class="text-small">20% Discount Special</p>
+                      </div>
+                      <div>
+                        <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5.07904 8.94848L1.52576 5.3952L0 6.92096L5.07904 12L15.5533 1.52576L14.0275 0L5.07904 8.94848Z" fill="currentColor"></path>
+                        </svg>
+                        <p class="text-small">Best Price Guarantee</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="hero-form-content hero-form-3" style="display: none">
+                  <div class="hero-form-top">
+                    <h5>
+                      <div class="question-number">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                          <path d="M10 3L4.5 8.5L2 6" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </div>
+                      Send a copy of the quote to:
+                    </h5>
+                  </div>
+                  <div class="options-holder options-inputs">
+                    <div class="input-holder">
+                      <p class="input-title">Full Name</p>
+                      <div class="input-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                          <path d="M7.5 6.5C7.5 8.981 9.519 11 12 11C14.481 11 16.5 8.981 16.5 6.5C16.5 4.019 14.481 2 12 2C9.519 2 7.5 4.019 7.5 6.5ZM20 21H21V20C21 16.141 17.859 13 14 13H10C6.14 13 3 16.141 3 20V21H4H5H19H20Z" fill="#111111" fill-opacity="0.64"></path>
+                        </svg>
+                        <input id="fullname" class="text verify-fullname" placeholder="Full Name" name="fullname" type="text" required />
+                      </div>
+                      <p class="error-msg fullname-error">This field is missing. Provide full name.</p>
+                    </div>
+                    <div class="input-holder">
+                      <p class="input-title">Email</p>
+                      <div class="input-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                          <path d="M20 4H4C2.896 4 2 4.896 2 6V18C2 19.104 2.896 20 4 20H20C21.104 20 22 19.104 22 18V6C22 4.896 21.104 4 20 4ZM20 8.7L12 14.034L4 8.7V6.297L12 11.63L20 6.297V8.7Z" fill="#111111" fill-opacity="0.64"></path>
+                        </svg>
+                        <input id="email" class="text verify-email" placeholder="Email" name="email" type="email" required />
+                      </div>
+                      <p class="error-msg email-error">This field is missing. Provide an email address.</p>
+                      <p class="error-check-valid">Please enter a valid email.</p>
+                    </div>
+
+                    <div class="input-holder">
+                      <p class="input-title">Phone Number</p>
+                      <div class="input-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                          <path
+                            d="M8.38028 8.85335C9.07627 10.303 10.0251 11.6616 11.2266 12.8632C12.4282 14.0648 13.7869 15.0136 15.2365 15.7096C15.3612 15.7694 15.4235 15.7994 15.5024 15.8224C15.7828 15.9041 16.127 15.8454 16.3644 15.6754C16.4313 15.6275 16.4884 15.5704 16.6027 15.4561C16.9523 15.1064 17.1271 14.9316 17.3029 14.8174C17.9658 14.3864 18.8204 14.3864 19.4833 14.8174C19.6591 14.9316 19.8339 15.1064 20.1835 15.4561L20.3783 15.6509C20.9098 16.1824 21.1755 16.4481 21.3198 16.7335C21.6069 17.301 21.6069 17.9713 21.3198 18.5389C21.1755 18.8242 20.9098 19.09 20.3783 19.6214L20.2207 19.779C19.6911 20.3087 19.4263 20.5735 19.0662 20.7757C18.6667 21.0001 18.0462 21.1615 17.588 21.1601C17.1751 21.1589 16.8928 21.0788 16.3284 20.9186C13.295 20.0576 10.4326 18.4332 8.04466 16.0452C5.65668 13.6572 4.03221 10.7948 3.17124 7.76144C3.01103 7.19699 2.93092 6.91477 2.9297 6.50182C2.92833 6.0436 3.08969 5.42311 3.31411 5.0236C3.51636 4.66357 3.78117 4.39876 4.3108 3.86913L4.46843 3.7115C4.99987 3.18006 5.2656 2.91433 5.55098 2.76999C6.11854 2.48292 6.7888 2.48292 7.35636 2.76999C7.64174 2.91433 7.90747 3.18006 8.43891 3.7115L8.63378 3.90637C8.98338 4.25597 9.15819 4.43078 9.27247 4.60655C9.70347 5.26944 9.70347 6.12403 9.27247 6.78692C9.15819 6.96269 8.98338 7.1375 8.63378 7.4871C8.51947 7.60142 8.46231 7.65857 8.41447 7.72538C8.24446 7.96281 8.18576 8.30707 8.26748 8.58743C8.29048 8.66632 8.32041 8.72866 8.38028 8.85335Z"
+                            fill="#111111"
+                            fill-opacity="0.64"
+                          ></path>
+                        </svg>
+                        <input class="text phone-js" placeholder="Phone Number" id="phone" name="phone" type="tel" />
+                        <span class="input-side-text">Optional</span>
+                      </div>
+                    </div>
+                    <div class="input-holder">
+                      <p class="input-title">Your Message</p>
+                      <div class="custom-textarea">
+                        <textarea id="hero-text-area" class="text" name="comments" placeholder=" "></textarea>
+                        <label class="text" for="hero-text-area" data-svelte-h="svelte-v1kyob">Additional Details (optional)</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bottom-boxes">
+                    <button class="primary-button nextHeroForm next-thank-you" href="#">SEE MY QUOTE</button>
+                    <div class="form-progress-bar">
+                      <div class="progress-step progress-step--completed">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+                          <path d="M13.3333 4.33337L5.99996 11.6667L2.66663 8.33337" stroke="#262641" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </div>
+                      <div class="bullet-line"></div>
+                      <div class="progress-step progress-step--completed">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+                          <path d="M13.3333 4.33337L5.99996 11.6667L2.66663 8.33337" stroke="#262641" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </div>
+                      <div class="bullet-line"></div>
+                      <div class="progress-step progress-step--next">
+                        <p>3</p>
+                      </div>
+                    </div>
+                    <div class="small-text-box">
+                      <div>
+                        <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5.07904 8.94848L1.52576 5.3952L0 6.92096L5.07904 12L15.5533 1.52576L14.0275 0L5.07904 8.94848Z" fill="currentColor"></path>
+                        </svg>
+                        <p class="text-small">20% Discount Special</p>
+                      </div>
+                      <div>
+                        <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5.07904 8.94848L1.52576 5.3952L0 6.92096L5.07904 12L15.5533 1.52576L14.0275 0L5.07904 8.94848Z" fill="currentColor"></path>
+                        </svg>
+                        <p class="text-small">Best Price Guarantee</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="hero-form-content hero-form--thanks hero-form-4" style="display: none">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="61" viewBox="0 0 60 61" fill="none">
+                    <circle cx="30" cy="30.5" r="25" fill="white" />
+                    <path d="M30 5.5C16.215 5.5 5 16.715 5 30.5C5 44.285 16.215 55.5 30 55.5C43.785 55.5 55 44.285 55 30.5C55 16.715 43.785 5.5 30 5.5ZM25.0025 41.5325L15.72 32.27L19.25 28.73L24.9975 34.4675L38.2325 21.2325L41.7675 24.7675L25.0025 41.5325Z" fill="#8DC63F" />
+                  </svg>
+
+                  <h3>Thank you!</h3>
+
+                  <p>We will reach out to you shortly/within 24 hours with your custom quote.</p>
+
+                  <a class="primary-button get-another-quote" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                      <path d="M17.1668 10H3.8335M3.8335 10L8.8335 15M3.8335 10L8.8335 5" stroke="#8DC63F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    Get Another Quote</a
+                  >
+
+                  <p>or</p>
+                  <a href="tel:+12252747239">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                      <path
+                        d="M15.2558 10.2442C15.1785 10.1667 15.0866 10.1053 14.9855 10.0633C14.8844 10.0214 14.7761 9.99984 14.6666 9.99984C14.5572 9.99984 14.4488 10.0214 14.3477 10.0633C14.2466 10.1053 14.1548 10.1667 14.0775 10.2442L12.7491 11.5725C12.1333 11.3892 10.9841 10.9725 10.2558 10.2442C9.52745 9.51584 9.11079 8.36667 8.92745 7.75084L10.2558 6.4225C10.3332 6.34518 10.3947 6.25335 10.4366 6.15225C10.4785 6.05115 10.5001 5.94278 10.5001 5.83334C10.5001 5.72389 10.4785 5.61552 10.4366 5.51443C10.3947 5.41333 10.3332 5.32149 10.2558 5.24417L6.92245 1.91084C6.84513 1.83338 6.75329 1.77194 6.6522 1.73001C6.5511 1.68808 6.44273 1.6665 6.33329 1.6665C6.22384 1.6665 6.11547 1.68808 6.01438 1.73001C5.91328 1.77194 5.82144 1.83338 5.74412 1.91084L3.48412 4.17084C3.16745 4.4875 2.98912 4.9225 2.99579 5.36667C3.01495 6.55334 3.32912 10.675 6.57745 13.9233C9.82579 17.1717 13.9475 17.485 15.135 17.505H15.1583C15.5983 17.505 16.0141 17.3317 16.3291 17.0167L18.5891 14.7567C18.6666 14.6793 18.728 14.5875 18.7699 14.4864C18.8119 14.3853 18.8335 14.2769 18.8335 14.1675C18.8335 14.0581 18.8119 13.9497 18.7699 13.8486C18.728 13.7475 18.6666 13.6557 18.5891 13.5783L15.2558 10.2442ZM15.15 15.8375C14.11 15.82 10.5516 15.5408 7.75579 12.7442C4.95079 9.93917 4.67912 6.36834 4.66245 5.34917L6.33329 3.67834L8.48829 5.83334L7.41079 6.91084C7.31284 7.00871 7.24082 7.12945 7.20125 7.26214C7.16167 7.39484 7.15579 7.5353 7.18412 7.67084C7.20412 7.76667 7.69329 10.0392 9.07662 11.4225C10.46 12.8058 12.7325 13.295 12.8283 13.315C12.9637 13.3441 13.1043 13.3387 13.2372 13.2993C13.37 13.2598 13.4907 13.1875 13.5883 13.0892L14.6666 12.0117L16.8216 14.1667L15.15 15.8375Z"
+                        fill="white"
+                      />
+                    </svg>
+                    Call Us (225) 417-3464
+                  </a>
+                  <div class="bottom-boxes">
+                    <div class="small-text-box">
+                      <div>
+                        <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5.07904 8.94848L1.52576 5.3952L0 6.92096L5.07904 12L15.5533 1.52576L14.0275 0L5.07904 8.94848Z" fill="currentColor"></path>
+                        </svg>
+                        <p class="text-small">Response within 24 hours</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="benefits-list">
+            <div class="benefit">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M12 2C6.486 2 2 6.486 2 12C2 17.514 6.486 22 12 22C17.514 22 22 17.514 22 12C22 6.486 17.514 2 12 2ZM10.001 16.413L6.288 12.708L7.7 11.292L9.999 13.587L15.293 8.293L16.707 9.707L10.001 16.413Z" fill="#8DC63F" />
+              </svg>
+              <p class="text">Fully Licensed With a BEST Price Guarantee Since 1995.</p>
+            </div>
+            <div class="benefit">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M12 2C6.486 2 2 6.486 2 12C2 17.514 6.486 22 12 22C17.514 22 22 17.514 22 12C22 6.486 17.514 2 12 2ZM10.001 16.413L6.288 12.708L7.7 11.292L9.999 13.587L15.293 8.293L16.707 9.707L10.001 16.413Z" fill="#8DC63F" />
+              </svg>
+              <p class="text">On-Going Or One-Time Services Custom To Your Needs.</p>
+            </div>
+            <div class="benefit">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M12 2C6.486 2 2 6.486 2 12C2 17.514 6.486 22 12 22C17.514 22 22 17.514 22 12C22 6.486 17.514 2 12 2ZM10.001 16.413L6.288 12.708L7.7 11.292L9.999 13.587L15.293 8.293L16.707 9.707L10.001 16.413Z" fill="#8DC63F" />
+              </svg>
+              <p class="text">Flexible & Fast Scheduling. Service At Your Convenience.</p>
+            </div>
+            <div class="benefit">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M12 2C6.486 2 2 6.486 2 12C2 17.514 6.486 22 12 22C17.514 22 22 17.514 22 12C22 6.486 17.514 2 12 2ZM10.001 16.413L6.288 12.708L7.7 11.292L9.999 13.587L15.293 8.293L16.707 9.707L10.001 16.413Z" fill="#8DC63F" />
+              </svg>
+              <p class="text">Environmentally conscious lawn maintenance.</p>
+            </div>
+          </div>
+          <div class="hero-bottom">
+            <div class="hero-stars-and-reviews">
+              <div class="stars">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <g clip-path="url(#clip0_4704_3256)">
+                    <path d="M8 0L10.2744 5.32171L16 5.85681L11.68 9.68091L12.9443 15.3333L8 12.375L3.05573 15.3333L4.32 9.68091L0 5.85681L5.72564 5.32171L8 0Z" fill="#F7D775" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_4704_3256">
+                      <rect width="16" height="16" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <g clip-path="url(#clip0_4704_3256)">
+                    <path d="M8 0L10.2744 5.32171L16 5.85681L11.68 9.68091L12.9443 15.3333L8 12.375L3.05573 15.3333L4.32 9.68091L0 5.85681L5.72564 5.32171L8 0Z" fill="#F7D775" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_4704_3256">
+                      <rect width="16" height="16" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <g clip-path="url(#clip0_4704_3256)">
+                    <path d="M8 0L10.2744 5.32171L16 5.85681L11.68 9.68091L12.9443 15.3333L8 12.375L3.05573 15.3333L4.32 9.68091L0 5.85681L5.72564 5.32171L8 0Z" fill="#F7D775" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_4704_3256">
+                      <rect width="16" height="16" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <g clip-path="url(#clip0_4704_3256)">
+                    <path d="M8 0L10.2744 5.32171L16 5.85681L11.68 9.68091L12.9443 15.3333L8 12.375L3.05573 15.3333L4.32 9.68091L0 5.85681L5.72564 5.32171L8 0Z" fill="#F7D775" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_4704_3256">
+                      <rect width="16" height="16" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <g clip-path="url(#clip0_4704_3256)">
+                    <path d="M8 0L10.2744 5.32171L16 5.85681L11.68 9.68091L12.9443 15.3333L8 12.375L3.05573 15.3333L4.32 9.68091L0 5.85681L5.72564 5.32171L8 0Z" fill="#F7D775" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_4704_3256">
+                      <rect width="16" height="16" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <p class="text-small--bold">4.7 stars</p>
+              <div class="devider"></div>
+              <p class="text-small--bold">235 Reviews</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/hero-form.js"></script>
+  </body>
+</html>

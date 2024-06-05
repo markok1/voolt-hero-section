@@ -1,0 +1,94 @@
+.h1 {
+  color: var(--color-primary, #1a4b8a);
+  text-align: center;
+  font-family: $intertight;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -0.36px;
+  text-transform: capitalize;
+}
+.h2 {
+  color: var(--color-primary, #1a4b8a);
+  text-align: center;
+  font-family: $intertight;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+.h3 {
+  color: var(--color-neutral-black, #111);
+  font-family: $intertight;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.24px;
+  text-transform: capitalize;
+}
+.text-large--bold {
+  color: var(--color-neutral-white, #fff);
+  font-family: $intertight;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.text--bold {
+  color: var(--color-neutral-black, #111);
+  font-family: $intertight;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.text {
+  color: var(--color-neutral-black, #111);
+  font-family: $intertight;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.08px;
+}
+.text-small--bold {
+  color: var(--color-neutral-black, #111);
+  font-family: $intertight;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.07px;
+}
+.text-small {
+  color: var(--color-neutral-black, #111);
+  font-family: $intertight;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.text-xs {
+  color: var(--color-neutral-black, #111);
+  font-family: $intertight;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.06px;
+}
+.sub-text {
+  text-align: center;
+  font-family: $intertight;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.sub-title {
+  color: var(--color-neutral-black, #111);
+  text-align: center;
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+}
